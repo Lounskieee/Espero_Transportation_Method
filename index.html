@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="shortcut icon" type="x-icon" href="Eventz LOGO AI-04.png">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Transportation Problem Solver</title>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+<div class="container">
+    <a href="#"><img src="Eventz LOGO AI-04.png" alt="logo"></a>
+    <h1>Transportation Problem Solver</h1>
+
+    <label for="rows">Sources (Rows): </label>
+    <input type="number" id="rows" min="2">
+    <label for="columns">Destinations (Columns): </label>
+    <input type="number" id="columns" min="2">
+    <button id="generate-button">Generate Table</button>
+
+    <div id="table-container"></div>
+
+    <div class="buttons">
+        <h5>Find the initial solution for the </h5>
+        <button id="solve-nw-button">Northwest Corner Method</button>
+        <button id="solve-lc-button">Least Cost Method</button>
+    </div>
+
+    <div id="result-container"></div>
+
+</div>
+    <script src="script.js"></script>
+</body>
+</html>
+
+

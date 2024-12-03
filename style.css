@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+
+*{
+    font-family: 'Poppins', sans-serif;
+    border: none;
+    background-color: transparent;
+    text-align: center;
+}
+body {
+    background-color: rgba(0, 0, 0, 0.664);
+    margin: 0;
+    padding: 20px;
+}
+
+.container {
+    max-width: 950px;
+    margin: auto;
+    background: whitesmoke;
+    padding: 50px;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.547);
+}
+
+.container img {
+    width: 150px; 
+    height: 150px; 
+    margin-top: .1rem;
+    margin-bottom: .1rem;
+}
+
+h1 {
+    font-size: 6vmin;
+    text-align: center;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    color: #333;
+}
+
+h2 {
+    font-size: 5vmin;
+    text-align: center;
+    margin-top: -25px;
+    margin-bottom: -35px;
+    color: #333;
+}
+
+.input-section {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 2px;
+}
+
+.container label {
+    margin-top: 10px;
+    font-size: 15px;
+}
+
+.container input {
+    width: 90px;
+    height: 40px;
+    font-size: 18px;
+    color: whitesmoke;
+    background-color: rgba(51, 48, 48, 0.489);
+    border-bottom: 3px solid black;
+    text-align: center;
+}
+
+.button-section {
+    gap: 100px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+button {
+    background-color: rgb(0, 255, 136);
+    color: black;
+    border: none;
+    margin-top: 5px;
+    margin-bottom: 30px;
+    padding: 10px 20px;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    justify-content: space-between;
+}
+
+button:hover {
+    background-color: rgb(0, 166, 169);
+    color: whitesmoke;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+table input {
+    width: 100px;
+    height: 30px;
+    font-size: 20px;
+}
+
+th, td {
+    border: 3px solid black;
+    padding: 8px;
+    text-align: center;
+}
+
+th {
+    background-color: #00eeff;
+    color: black;
+}
+
+.result-container table{
+    margin-top: 100px;
+}
+
+.highlight {
+    background-color: rgb(0, 255, 136);
+    color: black;
+}
+
+#result-container {
+    margin-top: 20px;
+}
+
+.container img {
+    width: 150px; 
+    height: 150px; 
+}
+
+
+#preloader {
+    background: black url(Loader.gif) no-repeat center center;
+    background-size: 10%;
+    height: 100vh;
+    width: 100%;
+    position: fixed;
+    z-index: 10000;
+}
